@@ -1,0 +1,8 @@
+{
+  "emeraldwalk.runonsave": {
+    
+  },
+  "editor.tabSize": 2,
+  "latex-workshop.linting.chktex.enabled": false,
+  "latex-workshop.linting.lacheck.enabled": false
+}

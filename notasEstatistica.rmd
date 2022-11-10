@@ -10,10 +10,10 @@ output:
 
 # First
 
-```{r }
+```{r}
   print("Hello world2")
 ```
 
-\begin{equation}
-  
-\end{equation}
+\begin{align*}
+  &1+1=2
+\end{align*}

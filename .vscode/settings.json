@@ -1,8 +1,18 @@
 {
   "emeraldwalk.runonsave": {
-    
+    "shell": "pwsh",
+    "commands": [
+      {
+        "cmd": "./render.ps1",
+        "match": "notasEstatistica.rmd"
+      }
+    ]
   },
   "editor.tabSize": 2,
   "latex-workshop.linting.chktex.enabled": false,
-  "latex-workshop.linting.lacheck.enabled": false
+  "latex-workshop.linting.lacheck.enabled": false,
+  "powershell.buttons.showRunButtons": false,
+  "powershell.promptToUpdatePowerShell": false,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "files.autoSave": "onFocusChange"
 }

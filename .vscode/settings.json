@@ -4,7 +4,7 @@
     "commands": [
       {
         "cmd": "./render.ps1",
-        "match": "notasEstatistica.rmd"
+        "match": "notasEstatistica.rtex"
       }
     ]
   },
@@ -14,5 +14,8 @@
   "powershell.buttons.showRunButtons": false,
   "powershell.promptToUpdatePowerShell": false,
   "latex-workshop.latex.autoBuild.run": "never",
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "github.copilot.enable": {
+    "*": true
+  }
 }
